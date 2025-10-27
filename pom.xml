@@ -29,6 +29,13 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.33</version>
     </dependency>
+
+    <!-- Webapp Runner (embedded Tomcat) -->
+    <dependency>
+      <groupId>com.github.jsimone</groupId>
+      <artifactId>webapp-runner</artifactId>
+      <version>9.0.27.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -45,3 +52,4 @@
     </plugins>
   </build>
 </project>
+
