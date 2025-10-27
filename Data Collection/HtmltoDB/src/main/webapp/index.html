@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Registration Form</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="card" style="width: 600px; margin: auto; margin-top: 50px">
+        <h2 class="bg-danger text-light card-header">Registration form</h2>
+        <form class="form" action="register" method="get">
+            <table class="table table-hover table-striped">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date" name="DOB"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="Gender" value="male">Male
+                        <input type="radio" name="Gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td><select name="Qualification">
+                            <option value="" selected="selected">Select</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="BE.Cse">BE.Cse</option>
+                            <option value="B.COM">B.COM</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MBBS">MBBS</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td><input type="checkbox" name="Hobbies" value="reading">Reading
+                        <input type="checkbox" name="Hobbies" value="watching">Web Series 
+                        <input type="checkbox" name="Hobbies" value="playing">Cricket
+                        <input type="checkbox" name="Hobbies" value="traveller">Travel
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+                    <td><button type="reset" class="btn btn-outline-danger">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
